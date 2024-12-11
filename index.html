@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Milestone 4: Resume Builder By Muhammad Irfan Shaikh</h1>
+    <form id="resumeForm">
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required> <br>
+        </fieldset>
+
+        <!-- Education Section -->
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">education:</label>
+            <textarea id="education" name="education" rows="5" required></textarea>
+        </fieldset>
+
+        <!-- Experience Section -->
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">experience:</label>
+            <textarea id="experience" name="experience" rows="3" required></textarea>
+        </fieldset>
+
+        <!-- Skills Experience -->
+        <fieldset>
+            <legend>Skills </legend>
+            <label for="skils">skills:</label>
+            <textarea id="skills" name="skills" rows="9" required></textarea>
+        </fieldset>
+
+        <button type="submit">Generate Resume Blow</button>
+    </form>
+    <div id="resumeOutput">
+        <!--Resume will be Generate Blow-->
+    </div>
+        <script src="script.js"></script>
+   
+</body>
+</html>

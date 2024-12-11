@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px; /* Corrected from padding: 1 to padding: 10px */
+    background-color: rgb(67, 62, 62);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5); /* Fixed the box-shadow property */
+}
+
+fieldset {
+    border-color: rgb(133, 118, 148);
+    border-radius: 8px;
+    padding: 17px;
+    margin-bottom: 20px;
+    background-color: rgb(232, 234, 238);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black; /* Corrected color property from color(display-p3 red green blue) */
+}
+
+input, textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(85, 83, 82);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: 20px auto; /* Centering the resume output */
+    padding: 20px;
+    border: 2px solid rgb(29, 77, 120);
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {
+    color: #2c3e50;
+}
